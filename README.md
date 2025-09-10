@@ -52,5 +52,19 @@ Each model is trained to classify different wafer defect types, enabling **early
 
 ---
 
-## 📁 Repository Structure
+
+---
+
+## 📈 Results
+
+- The three models are benchmarked on classification performance.  
+- Comparative analysis highlights which algorithm achieves the highest accuracy on wafer defect recognition.  
+
+---
+
+## 📬 Acknowledgments
+
+- Dataset provided by **Multimedia Information Retrieval Lab**.  
+- Hosted on **Kaggle** as WM-811K.  
+
 
