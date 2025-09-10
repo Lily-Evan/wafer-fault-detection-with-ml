@@ -1,7 +1,19 @@
-# Semiconductor Wafer Defect Classification
+# 🟢 Semiconductor Wafer Defect Classification
 
 This project explores how **machine learning** can be applied to classify defect patterns on semiconductor wafers using real wafer map image data.  
 The aim is to improve defect detection accuracy and reduce manual inspection in semiconductor manufacturing.  
+
+---
+
+## 📑 Table of Contents
+- [Objective](#-objective)
+- [Dataset](#-dataset)
+- [Workflow](#-workflow)
+- [Technologies](#-technologies)
+- [Repository Structure](#-repository-structure)
+- [Installation & Usage](#-installation--usage)
+- [Results](#-results)
+- [Acknowledgments](#-acknowledgments)
 
 ---
 
@@ -18,7 +30,7 @@ Each model is trained to classify different wafer defect types, enabling **early
 
 ## 📊 Dataset
 - **Source:** [WM-811K Dataset (Kaggle)](https://www.kaggle.com/qingyi/wm811k-wafer-map)  
-- **Provider:** Multimedia Information Retrieval Lab (mirlab.org)  
+- **Provider:** Multimedia Information Retrieval Lab ([mirlab.org](http://mirlab.org))  
 - **Description:** Contains wafer map images with labeled defect categories.  
 
 ---
@@ -37,34 +49,21 @@ Each model is trained to classify different wafer defect types, enabling **early
    - Split data into training and testing sets.  
 
 4. **Evaluation**  
-   - Compare performance with accuracy, confusion matrices, and classification reports.  
-   - Visualize results across models.  
+   - Accuracy, confusion matrices, and classification reports.  
+   - Visualization of model performance.  
 
 ---
 
 ## 🧪 Technologies
 
-- Python  
+- Python 3.x  
 - NumPy  
 - Matplotlib  
 - Scikit-learn  
 - Seaborn  
+- Jupyter Notebook  
 
 ---
 
-
----
-
-## 📈 Results
-
-- The three models are benchmarked on classification performance.  
-- Comparative analysis highlights which algorithm achieves the highest accuracy on wafer defect recognition.  
-
----
-
-## 📬 Acknowledgments
-
-- Dataset provided by **Multimedia Information Retrieval Lab**.  
-- Hosted on **Kaggle** as WM-811K.  
-
+## 📁 Repository Structure
 
