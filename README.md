@@ -106,9 +106,6 @@ Model	Accuracy	Notes
 
 
 
-(Replace xx% with your actual results after evaluation)
-
-Example Confusion Matrix:
 
 📬 Acknowledgments
 
@@ -120,6 +117,5 @@ Inspired by research in semiconductor manufacturing defect detection.
 
 📄 License
 
-This project is licensed under the Apache 2.0 License – see the LICENSE
- file for details.
+This project is licensed under the Apache 2.0 License 
 
