@@ -66,10 +66,16 @@ Each model is trained to classify different wafer defect types, enabling **early
 ---
 
 ## 📁 Repository Structure
+
 ├── wafer_defect_classification.ipynb # Main notebook (data prep, training, evaluation)
+
 ├── data/ # Wafer map dataset (from Kaggle)
+
 ├── results/ # Saved plots, confusion matrices, metrics
+
+
 ├── requirements.txt # Dependencies
+
 └── README.md # Project documentation
 
 
