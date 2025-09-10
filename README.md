@@ -66,4 +66,54 @@ Each model is trained to classify different wafer defect types, enabling **early
 ---
 
 ## 📁 Repository Structure
+├── wafer_defect_classification.ipynb # Main notebook (data prep, training, evaluation)
+├── data/ # Wafer map dataset (from Kaggle)
+├── results/ # Saved plots, confusion matrices, metrics
+├── requirements.txt # Dependencies
+└── README.md # Project documentation
+
+
+---
+
+## 💻 Installation & Usage
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/Lily-Evan/wafer-fault-detection-with-ml.git
+   cd wafer-fault-detection-with-ml
+
+Launch Jupyter Notebook:
+
+jupyter notebook
+
+
+Open wafer_defect_classification.ipynb to run the analysis.
+
+📈 Results
+Model	Accuracy	Notes
+| Model                  | Accuracy | Notes                      |
+| ---------------------- | -------- | -------------------------- |
+| Logistic Regression    | 62.7%%      | Fast, but limited accuracy |
+| Support Vector Machine | 65.7%      | Better generalization      |
+| Random Forest          | 78.5%      | Best performance overall   |
+| Random Forest -optimization.         | 79.4%      | Best performance overall   |
+
+
+
+(Replace xx% with your actual results after evaluation)
+
+Example Confusion Matrix:
+
+📬 Acknowledgments
+
+Dataset provided by Multimedia Information Retrieval Lab.
+
+Hosted on Kaggle as WM-811K.
+
+Inspired by research in semiconductor manufacturing defect detection.
+
+📄 License
+
+This project is licensed under the Apache 2.0 License – see the LICENSE
+ file for details.
 
