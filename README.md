@@ -1,49 +1,55 @@
 Semiconductor Wafer Defect Classification
-This project demonstrates how machine learning can be used to identify defect patterns on semiconductor wafers using real wafer map image data. The goal is to improve defect detection and reduce manual analysis effort in semiconductor manufacturing.
 
-📌 Project Objective
-To automatically recognize defect types in wafer maps using three supervised machine learning models:
+This project explores how machine learning can be applied to classify defect patterns on semiconductor wafers using real wafer map image data.
+The aim is to improve defect detection accuracy and reduce manual inspection in semiconductor manufacturing.
+
+📌 Objective
+
+Automatically recognize defect types in wafer maps using three supervised learning models:
 
 Support Vector Machine (SVM)
 
 Logistic Regression (LR)
 
-Random Forest Classifier
+Random Forest Classifier (RF)
 
-Each model is trained to classify different types of defects on wafer dies, enabling early detection and process optimization.
+Each model is trained to classify different wafer defect types, enabling early detection and process optimization.
 
 📊 Dataset
-The dataset used is WM-811K, available on Kaggle.
-It contains wafer map images with labeled defect types.
 
-Dataset source:
-Multimedia Information Retrieval Lab: mirlab.org
+Source: WM-811K Dataset (Kaggle link
+)
 
-⚙️ Key Steps
+Provider: Multimedia Information Retrieval Lab (mirlab.org)
+
+Description: Contains wafer map images with labeled defect categories.
+
+⚙️ Workflow
+
 Data Loading
-The dataset is loaded from .npy files.
+
+Load wafer map images from .npy files.
 
 Preprocessing
 
-Wafer maps are extracted and filtered to remove null/undetermined categories.
+Remove null/undetermined categories.
 
-Each wafer map is reshaped to uniform input for classification.
+Reshape wafer maps into uniform inputs for classifiers.
 
 Model Training
 
-Three models (SVM, Logistic Regression, Random Forest) are trained.
+Train SVM, Logistic Regression, and Random Forest.
 
-Accuracy and performance are compared for each model.
-
-Data is split into training and test sets.
+Split data into training and testing sets.
 
 Evaluation
 
-Confusion matrix and classification reports are used to assess model performance.
+Compare performance with accuracy, confusion matrices, and classification reports.
 
-Visualization is provided for model comparison.
+Visualize results across models.
 
-🧪 Technologies Used
+🧪 Technologies
+
 Python
 
 NumPy
@@ -54,13 +60,15 @@ Scikit-learn
 
 Seaborn
 
-📁 Files
-semiconductor-wafer-defect-classificatio (1).ipynb: Main Jupyter notebook containing code, analysis, and model training
-
-Wafer image dataset from Kaggle
 
 📈 Results
-The three models are compared on classification performance. Results show which algorithm performs best on the wafer defect recognition task.
+
+The three models are benchmarked on classification performance.
+
+Comparative analysis highlights which algorithm achieves the highest accuracy on wafer defect recognition.
 
 📬 Acknowledgments
-Dataset provided by the Multimedia Information Retrieval Lab and hosted on Kaggle.
+
+Dataset provided by Multimedia Information Retrieval Lab.
+
+Hosted on Kaggle as WM-811K.
